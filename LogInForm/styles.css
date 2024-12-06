@@ -1,0 +1,8 @@
+.title{
+    background-color: darkblue;
+    background-blend-mode: color-dodge;
+    flex-wrap: nowrap;
+    border-bottom-color: antiquewhite;
+    flex-grow: 2;
+    
+}

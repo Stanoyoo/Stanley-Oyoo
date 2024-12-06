@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title class="title">Registration Form</title>
+</head>
+<body>
+<main>
+    <header>
+        <h1 class="header-h2"><b>Stanpark Registration Form</b></h1>
+        <p><em>The following registration form contains all fields that are to be filled by the visitors</em></p>
+    </header>
+    <div class="section">
+    <section>
+        <fieldset>
+            <form action="submit" method="post" id="personal data">
+                <legend>Register with us here</legend>
+                <div class="boxes">
+                <label for="fname">First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" placeholder="Enter your firstName" pattern="[a-zA-Z]" title="must contain letters between a-z." required>
+                
+                
+                <label for="sname">Second Name:</label>
+                <input type="text" id="SecondName" name="SecondName" placeholder="Enter your secondName" pattern="[a-zA-Z]" title="must contain letters between a-z."  required>
+                
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="user-email" name="user-email" placeholder="Enter your email" pattern="[^@]+@[^@]+\.[a-zA-Z0-9]).{8,}"title="Must contain atleast one number and one uppercase and lowercase letters and atleast 8 more characters." required>
+                
+
+                <label for="pwd">Password:</label>
+                <input type="Password" id="pwd" name="pwd" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-zA-Z0-9].{8,})" title="Must ontain a number and one uppercase letter and one lowercase letter and atleast 8 more characters." required>
+            </div>
+            </form>
+        </fieldset>
+    </section>
+</div>
+</main>   
+</body>
+</html>
